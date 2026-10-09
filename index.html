@@ -1,0 +1,6508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TRIO HIMS - Hospital Information Management System</title>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="TRIO Hospital Information Management System Software">
+  <meta name="description"
+    content="Trio HIMS software provides a comprehensive solution for managing patient data, tracking medical records, streamline administrative tasks, 30+ hospital modules.">
+  <meta name="keywords"
+    content="hospital management system, hims hospital, hims medical, hospital information management system, health management information system, patient management system, hospital management software">
+
+  <link rel="canonical" href="https://www.triohims.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.triohims.com/">
+  <meta property="og:title" content="TRIO Hospital Information Management System Software">
+  <meta property="og:description"
+    content="Trio HIMS software provides a comprehensive solution for managing patient data, tracking medical records, streamline administrative tasks and 30+ hospital modules.">
+  <meta property="og:image" content="https://www.triohims.com/assets/img/trio-hims.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.triohims.com/">
+  <meta property="twitter:title" content="TRIO Hospital Information Management System Software">
+  <meta property="twitter:description"
+    content="Trio HIMS software provides a comprehensive solution for managing patient data, tracking medical records, streamline administrative tasks and 30+ hospital modules.">
+  <meta property="twitter:image" content="https://www.triohims.com/assets/img/trio-hims.png">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon"
+    href="https://www.himstrio.com/assets/img/favicon.png"
+    type="image/x-icon">
+
+  <link rel="apple-touch-icon"
+    href="https://www.himstrio.com/assets/img/favicon.png">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Boxicons -->
+  <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <!-- GLightbox -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+  <!-- Main CSS -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script
+    defer
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5LS58VW');
+  </script>
+
+  <meta name="facebook-domain-verification"
+    content="oys9qgdb028q5lyorffno3tpv3t8bw">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) :
+          n.queue.push(arguments)
+      };
+
+      if (!f._fbq) f._fbq = n;
+
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+
+    }(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
+
+    fbq('init', '9153614644680206');
+    fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=9153614644680206&ev=PageView&noscript=1"
+      alt="">
+  </noscript>
+
+  <!-- Small Inline Styles -->
+  <style>
+    .stars-outer {
+      display: inline-block;
+      position: relative;
+      font-family: FontAwesome;
+    }
+
+    .stars-outer::before {
+      content: "\f006 \f006 \f006 \f006 \f006";
+    }
+
+    .stars-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+    }
+
+    .stars-inner::before {
+      content: "\f005 \f005 \f005 \f005 \f005";
+      color: #f8ce0b;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    .whatapp_float {
+      position: fixed;
+      bottom: 60px;
+      right: 2px;
+      z-index: 990;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-5LS58VW"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "triohims",
+    "url": "https://www.triohims.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.triohims.com/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+
+  <!-- =========================
+       WHATSAPP FLOAT
+  ========================== -->
+
+  <div class="whatapp_float">
+
+    <a
+      href="https://wa.me/918380055452"
+      target="_blank"
+      rel="noopener">
+
+      <img
+        src="https://www.himstrio.com/assets/icon/icons8-whatsapp.gif"
+        width="60"
+        class="whatapp_float_btn"
+        alt="WhatsApp">
+
+    </a>
+
+  </div>
+
+
+  <!-- =========================
+       DEMO REQUEST MODAL
+  ========================== -->
+
+  <div
+    id="myModalll"
+    class="modal fade"
+    tabindex="-1">
+
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h4 class="modal-title">
+            Book a Personalized Demo
+          </h4>
+
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close">
+          </button>
+
+        </div>
+
+
+        <div class="modal-body">
+
+          <img
+            src="https://www.himstrio.com/assets/img/modal_image_1.png"
+            width="465"
+            height="240"
+            class="responsive"
+            alt="TRIO HIMS Demo">
+
+
+          <p></p>
+
+
+          <form
+            action="https://www.himstrio.com/assets/api/curl.php"
+            method="post"
+            id="form1"
+            role="form"
+            class="php-email-form">
+
+
+            <div class="row">
+
+              <div class="col-md-6 form-group">
+
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name1"
+                  placeholder="Your Name"
+                  required>
+
+              </div>
+
+
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email1"
+                  placeholder="Your Email"
+                  required>
+
+              </div>
+
+            </div>
+
+
+            <div class="form-group mt-3">
+
+              <input
+                type="tel"
+                class="form-control"
+                name="phone"
+                id="phone1"
+                placeholder="Your Phone"
+                pattern="[1-9]{1}[0-9]{9}"
+                required>
+
+            </div>
+
+
+            <div class="form-group mt-3">
+
+              <textarea
+                class="form-control"
+                id="requirement1"
+                name="requirement"
+                rows="1"
+                placeholder="Message"
+                required>
+              </textarea>
+
+            </div>
+
+
+            <div class="form-group mt-3">
+
+              <div class="text-center">
+
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                  value="submit">
+                  Submit
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal">
+                  Close
+                </button>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       TOP BAR
+  ========================== -->
+
+  <div
+    id="topbar"
+    class="d-flex align-items-center fixed-top">
+
+    <div class="container d-flex justify-content-between">
+
+      <div class="contact-info d-flex align-items-center">
+
+        <i class="bi bi-envelope"></i>
+
+        <a href="mailto:info@triocorporation.in">
+          info@triocorporation.in
+        </a>
+
+        <i class="bi bi-phone"></i>
+
+        +91 9021 023 456
+
+      </div>
+
+
+      <div
+        class="d-none d-lg-flex social-links align-items-center">
+
+        <a
+          href="https://twitter.com/CorporationTrio"
+          class="twitter"
+          target="_blank"
+          rel="noopener">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com/trioindia"
+          class="facebook"
+          target="_blank"
+          rel="noopener">
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/triocorporationitservices/"
+          class="instagram"
+          target="_blank"
+          rel="noopener">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/trio-corporation-pvt-ltd-/"
+          class="linkedin"
+          target="_blank"
+          rel="noopener">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a
+          href="https://www.youtube.com/@triocorporation2512"
+          class="youtube"
+          target="_blank"
+          rel="noopener">
+          <i class="bi bi-youtube"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       HEADER / NAVBAR
+  ========================== -->
+
+  <header
+    id="header"
+    class="fixed-top">
+
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto">
+
+        <a href="/">
+
+          <img
+            alt="TRIO Corporation Pvt. Ltd."
+            title="TRIO Corporation Pvt Ltd"
+            src="https://www.himstrio.com/assets/img/trio-logo.png"
+            style="max-height:40px;">
+
+        </a>
+
+      </h1>
+
+
+      <nav
+        id="navbar"
+        class="navbar order-last order-lg-0">
+
+        <ul>
+
+          <li>
+            <a
+              class="nav-link scrollto active"
+              href="/">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#product-preview">
+              Preview
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#patient-journey">
+              Journey
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#faq1">
+              Modules
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#departments">
+              Workflows
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#testimonialsd">
+              Testimonials
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav-link scrollto"
+              href="#contact">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+
+        <i
+          class="bi bi-list mobile-nav-toggle"
+          aria-label="Open navigation"
+          role="button"
+          tabindex="0">
+        </i>
+
+      </nav>
+
+
+      <a
+        href="#myModalll"
+        class="appointment-btn scrollto"
+        data-bs-toggle="modal"
+        aria-label="Book a Demo with TRIO HIMS">
+        Book a Demo
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       HERO SECTION
+  ========================== -->
+
+  <section
+    id="hero"
+    class="d-flex align-items-center">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div
+          class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+
+          <span class="hero-badge reveal-up">Hospital Information Management System</span>
+
+          <h1 class="reveal-up">
+            All-in-One system to simplify
+            Hospital's Operational Tasks
+          </h1>
+
+
+          <h2 class="reveal-up">
+            A Trusted Name in HIMS providing
+            a simple and sustainable system
+            for Healthcare Automation.
+          </h2>
+
+
+          <div class="hero-cta-group reveal-up">
+
+            <a
+              href="#myModalll"
+              class="btn-get-started"
+              data-bs-toggle="modal"
+              aria-label="Book a Demo">
+              Book a Demo
+            </a>
+
+            <a
+              href="#product-preview"
+              class="btn-get-started-secondary scrollto"
+              aria-label="Explore TRIO HIMS">
+              Explore TRIO HIMS
+            </a>
+
+          </div>
+
+          <div class="hero-stats-row reveal-up">
+            <div class="hero-stat-item">
+              <strong>200+</strong>
+              <span>Hospitals</span>
+            </div>
+            <div class="hero-stat-item">
+              <strong>27+</strong>
+              <span>Modules</span>
+            </div>
+            <div class="hero-stat-item">
+              <strong>10 Yrs</strong>
+              <span>Experience</span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-5 order-1 order-lg-2 hero-img">
+
+          <img
+            src="https://www.himstrio.com/assets/img/modal_image_1.png"
+            class="img-fluid"
+            alt="TRIO HIMS Hospital Information Management System">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       HERO TRUST BADGES
+  ========================== -->
+
+  <section
+    id="featured"
+    class="featured">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="icon-box reveal-up">
+
+            <img
+              src="https://www.himstrio.com/assets/icon/1-removebg-preview.png"
+              alt="TRIO HIMS Healthcare">
+
+            <div>
+
+              <h3>
+                Healthcare Expertise
+              </h3>
+
+              <p>
+                Built with healthcare workflow
+                and operational requirements in mind.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="icon-box reveal-up">
+
+            <img
+              src="https://www.himstrio.com/assets/icon/2-removebg-preview.png"
+              alt="TRIO HIMS Integration">
+
+            <div>
+
+              <h3>
+                Integrated Modules
+              </h3>
+
+              <p>
+                Connect clinical, diagnostic,
+                financial and operational workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="icon-box reveal-up">
+
+            <img
+              src="https://www.himstrio.com/assets/icon/3-removebg-preview.png"
+              alt="TRIO HIMS Scalable">
+
+            <div>
+
+              <h3>
+                Simple &amp; Scalable
+              </h3>
+
+              <p>
+                A sustainable solution designed
+                to grow with hospital operations.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       COUNTS / STATS
+  ========================== -->
+
+  <section id="counts" class="counts">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="count-box reveal-up">
+
+            <i class="fas fa-hospital-user"></i>
+
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="200"
+              data-purecounter-duration="1"
+              class="purecounter">
+              200
+            </span>
+
+            <p>
+              Hospitals Across India &amp; Abroad
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+
+          <div class="count-box reveal-up">
+
+            <i class="fas fa-th-large"></i>
+
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="27"
+              data-purecounter-duration="1"
+              class="purecounter">
+              27
+            </span>
+
+            <p>
+              Hospital Modules in One Application
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+
+          <div class="count-box reveal-up">
+
+            <i class="fas fa-award"></i>
+
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="10"
+              data-purecounter-duration="1"
+              class="purecounter">
+              10
+            </span>
+
+            <p>
+              Years Healthcare Domain Expertise
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+
+          <div class="count-box reveal-up">
+
+            <i class="fas fa-network-wired"></i>
+
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="100"
+              data-purecounter-duration="1"
+              class="purecounter">
+              100
+            </span>
+
+            <p>
+              % Connected Hospital Workflows
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRODUCT PREVIEW
+  ========================== -->
+
+  <section
+    id="product-preview"
+    class="product-preview section-bg">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">PRODUCT PREVIEW</span>
+
+        <h2>
+          TRIO HIMS Product Preview
+        </h2>
+
+        <p>
+          Explore how different hospital teams
+          can interact with a centralized HIMS platform.
+        </p>
+
+      </div>
+
+
+      <!-- Dashboard Tabs -->
+
+      <div class="dashboard-tabs-wrapper reveal-up">
+
+        <div
+          class="dashboard-tabs"
+          role="tablist"
+          aria-label="Dashboard previews">
+
+
+          <button
+            class="dash-tab active"
+            data-target="overview"
+            type="button"
+            role="tab"
+            aria-selected="true">
+
+            <i class="fas fa-chart-pie"></i>
+
+            Overview
+
+          </button>
+
+
+          <button
+            class="dash-tab"
+            data-target="doctor"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <i class="fas fa-user-md"></i>
+
+            Doctor
+
+          </button>
+
+
+          <button
+            class="dash-tab"
+            data-target="lab"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <i class="fas fa-flask"></i>
+
+            Laboratory
+
+          </button>
+
+        </div>
+
+
+        <div class="dashboard-panels">
+
+
+          <!-- Overview Dashboard -->
+
+          <div
+            class="dashboard-panel active"
+            id="dash-overview"
+            role="tabpanel">
+
+            <div class="dash-header">
+
+              <div class="dash-title">
+
+                <span class="dash-logo">
+                  TRIO HIMS
+                </span>
+
+                <span class="dash-user">
+                  Hospital Management Dashboard
+                </span>
+
+              </div>
+
+
+              <div class="dash-date">
+                <span id="dashboard-date"></span>
+              </div>
+
+            </div>
+
+
+            <div class="dash-body">
+
+              <div class="dash-stats-row">
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon blue">
+                    <i class="fas fa-hospital-user"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      1,248
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Active Patients
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon green">
+                    <i class="fas fa-user-md"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      86
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Doctors
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon orange">
+                    <i class="fas fa-calendar-check"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      142
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Today's Appointments
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon purple">
+                    <i class="fas fa-bed"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      74%
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Bed Occupancy
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="dash-main-content">
+
+
+                <div class="dash-chart-block">
+
+                  <div class="dash-block-title">
+                    Patient Activity
+                  </div>
+
+                  <div class="dash-chart">
+
+                    <div class="chart-bars">
+
+                      <span style="height:42%"></span>
+                      <span style="height:65%"></span>
+                      <span style="height:52%"></span>
+                      <span style="height:78%"></span>
+                      <span style="height:61%"></span>
+                      <span style="height:88%"></span>
+                      <span style="height:72%"></span>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-quick-links">
+
+                  <div class="dash-block-title">
+                    Quick Access
+                  </div>
+
+                  <div class="dash-ql-grid">
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-user-plus"></i>
+                      <span>New Registration</span>
+                    </div>
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-calendar-check"></i>
+                      <span>Appointments</span>
+                    </div>
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-file-medical"></i>
+                      <span>Reports</span>
+                    </div>
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-pills"></i>
+                      <span>Pharmacy</span>
+                    </div>
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-chart-line"></i>
+                      <span>Analytics</span>
+                    </div>
+
+                    <div class="dash-ql-item">
+                      <i class="fas fa-cogs"></i>
+                      <span>Settings</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Doctor Dashboard -->
+
+          <div
+            class="dashboard-panel"
+            id="dash-doctor"
+            role="tabpanel">
+
+            <div class="dash-header">
+
+              <div class="dash-title">
+
+                <span class="dash-logo">
+                  TRIO HIMS
+                </span>
+
+                <span class="dash-user">
+                  Doctor Panel — Dr. A. Sharma, General Medicine
+                </span>
+
+              </div>
+
+              <div class="dash-date">
+                OPD:
+                <strong>Open</strong>
+              </div>
+
+            </div>
+
+
+            <div class="dash-body">
+
+              <div class="dash-stats-row">
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon blue">
+                    <i class="fas fa-user-injured"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      18
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Patients Waiting
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon green">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      11
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Consulted Today
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon orange">
+                    <i class="fas fa-clock"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      7
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Scheduled Appts
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon purple">
+                    <i class="fas fa-flask"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      4
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Pending Reports
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="dash-main-content">
+
+
+                <div class="dash-table-block">
+
+                  <div class="dash-block-title">
+                    Today's OPD Queue
+                  </div>
+
+                  <table class="dash-table">
+
+                    <thead>
+
+                      <tr>
+                        <th>Token</th>
+                        <th>Patient</th>
+                        <th>Age/Gender</th>
+                        <th>Complaint</th>
+                        <th>Status</th>
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+                        <td>#001</td>
+                        <td>Mohan Verma</td>
+                        <td>45 / M</td>
+                        <td>Fever, Cough</td>
+                        <td>
+                          <span class="dash-badge green">
+                            In Room
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>#002</td>
+                        <td>Sunita Rao</td>
+                        <td>32 / F</td>
+                        <td>Headache</td>
+                        <td>
+                          <span class="dash-badge orange">
+                            Waiting
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>#003</td>
+                        <td>Anil Gupta</td>
+                        <td>58 / M</td>
+                        <td>BP Check</td>
+                        <td>
+                          <span class="dash-badge orange">
+                            Waiting
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>#004</td>
+                        <td>Kavya Nair</td>
+                        <td>28 / F</td>
+                        <td>Follow-up</td>
+                        <td>
+                          <span class="dash-badge gray">
+                            Scheduled
+                          </span>
+                        </td>
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+
+                <div class="dash-quick-links">
+
+                  <div class="dash-block-title">
+                    Pending Lab Reports
+                  </div>
+
+                  <ul class="dash-pending-list">
+
+                    <li>
+                      <i class="fas fa-vial text-warning"></i>
+                      CBC — Ramesh Kumar
+                      <span class="dash-badge orange">
+                        Awaited
+                      </span>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-vial text-warning"></i>
+                      LFT — Sunita Rao
+                      <span class="dash-badge orange">
+                        Awaited
+                      </span>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-x-ray text-info"></i>
+                      Chest X-Ray — Mohan Verma
+                      <span class="dash-badge green">
+                        Ready
+                      </span>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-vial text-success"></i>
+                      HbA1c — Anil Gupta
+                      <span class="dash-badge green">
+                        Ready
+                      </span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Laboratory Dashboard -->
+
+          <div
+            class="dashboard-panel"
+            id="dash-lab"
+            role="tabpanel">
+
+            <div class="dash-header">
+
+              <div class="dash-title">
+
+                <span class="dash-logo">
+                  TRIO HIMS
+                </span>
+
+                <span class="dash-user">
+                  Laboratory Panel — LIMS Module
+                </span>
+
+              </div>
+
+              <div class="dash-date">
+                Samples:
+                <strong>Processing</strong>
+              </div>
+
+            </div>
+
+
+            <div class="dash-body">
+
+              <div class="dash-stats-row">
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon blue">
+                    <i class="fas fa-vial"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      56
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Tests Ordered
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon orange">
+                    <i class="fas fa-hourglass-half"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      21
+                    </div>
+
+                    <div class="dash-stat-label">
+                      In Progress
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon green">
+                    <i class="fas fa-check-double"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      29
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Results Ready
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <div class="dash-stat-card">
+
+                  <div class="dash-stat-icon red">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </div>
+
+                  <div class="dash-stat-info">
+
+                    <div class="dash-stat-num">
+                      6
+                    </div>
+
+                    <div class="dash-stat-label">
+                      Critical Values
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="dash-main-content">
+
+
+                <div class="dash-table-block">
+
+                  <div class="dash-block-title">
+                    Sample Tracking
+                  </div>
+
+                  <table class="dash-table">
+
+                    <thead>
+
+                      <tr>
+                        <th>Barcode</th>
+                        <th>Patient</th>
+                        <th>Test</th>
+                        <th>Collected At</th>
+                        <th>Status</th>
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+                        <td>SMP-0341</td>
+                        <td>Ramesh Kumar</td>
+                        <td>CBC</td>
+                        <td>09:15 AM</td>
+                        <td>
+                          <span class="dash-badge green">
+                            Resulted
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>SMP-0342</td>
+                        <td>Priya Patel</td>
+                        <td>LFT</td>
+                        <td>09:30 AM</td>
+                        <td>
+                          <span class="dash-badge orange">
+                            Processing
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>SMP-0343</td>
+                        <td>Mohan Verma</td>
+                        <td>HbA1c</td>
+                        <td>10:00 AM</td>
+                        <td>
+                          <span class="dash-badge orange">
+                            Processing
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>SMP-0344</td>
+                        <td>Sunita Rao</td>
+                        <td>Thyroid</td>
+                        <td>10:20 AM</td>
+                        <td>
+                          <span class="dash-badge gray">
+                            Pending
+                          </span>
+                        </td>
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+
+                <div class="dash-quick-links">
+
+                  <div class="dash-block-title">
+                    Analyzer Interface
+                  </div>
+
+                  <ul class="dash-pending-list">
+
+                    <li>
+                      <i class="fas fa-circle text-success"></i>
+                      Hematology Analyzer — Online
+                    </li>
+
+                    <li>
+                      <i class="fas fa-circle text-success"></i>
+                      Biochemistry Analyzer — Online
+                    </li>
+
+                    <li>
+                      <i class="fas fa-circle text-warning"></i>
+                      Coagulation Analyzer — Calibrating
+                    </li>
+
+                    <li>
+                      <i class="fas fa-circle text-danger"></i>
+                      Urine Analyzer — Offline
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       WHY US
+  ========================== -->
+
+  <section
+    id="why-us"
+    class="why-us">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">WHY TRIO HIMS</span>
+
+        <h2>
+          Why Choose TRIO HIMS?
+        </h2>
+
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="col-lg-4 d-flex align-items-stretch">
+
+          <div class="content reveal-left">
+
+            <h3>
+              Why Choose TRIO HIMS?
+            </h3>
+
+            <ul>
+
+              <li>
+                10 Years of Healthcare domain expertise.
+              </li>
+
+              <li>
+                200+ Hospitals successfully using HIMS
+                across India &amp; Abroad.
+              </li>
+
+              <li>
+                More than 27 hospital modules in one application.
+              </li>
+
+              <li>
+                Handpicked team of skilled professionals.
+              </li>
+
+              <li>
+                Focus on core Competencies.
+              </li>
+
+              <li>
+                Simple, Sustainable &amp; Scalable Solution.
+              </li>
+
+              <li>
+                Excellent Service and Support System.
+              </li>
+
+            </ul>
+
+
+            <div class="text-center">
+
+              <a
+                href="#faq1"
+                class="more-btn scrollto">
+
+                Explore Modules
+
+                <i class="bx bx-chevron-right"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-8 d-flex align-items-stretch">
+
+          <div
+            class="icon-boxes d-flex flex-column justify-content-center">
+
+            <div class="row">
+
+
+              <div class="col-xl-4 d-flex align-items-stretch">
+
+                <div
+                  class="icon-box mt-4 mt-xl-0 reveal-up">
+
+                  <div style="text-align:center;">
+
+                    <i class="bx bx-rocket"></i>
+
+                  </div>
+
+                  <h4>
+                    Technology
+                  </h4>
+
+                  <p>
+                    Web-based / Cloud-based.
+                    Integrated Data Modules.
+                    Data Security and Compliance.
+                  </p>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-xl-4 d-flex align-items-stretch">
+
+                <div
+                  class="icon-box mt-4 mt-xl-0 reveal-up">
+
+                  <div style="text-align:center;">
+
+                    <i class="bx bx-data"></i>
+
+                  </div>
+
+                  <h4>
+                    Integrated Data
+                  </h4>
+
+                  <p>
+                    Connected information across
+                    hospital departments and workflows.
+                  </p>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-xl-4 d-flex align-items-stretch">
+
+                <div
+                  class="icon-box mt-4 mt-xl-0 reveal-up">
+
+                  <div style="text-align:center;">
+
+                    <i class="bx bx-support"></i>
+
+                  </div>
+
+                  <h4>
+                    Support
+                  </h4>
+
+                  <p>
+                    Excellent service and support
+                    system for hospital operations.
+                  </p>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Continue with HTML Part 2/4 -->
+
+
+    <!-- =========================
+       ABOUT / HIMS BENEFITS
+  ========================== -->
+
+  <section
+    id="about"
+    class="about">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">ABOUT TRIO HIMS</span>
+
+        <h2>
+          Healthcare Automation with TRIO HIMS
+        </h2>
+
+        <p>
+          A centralized hospital information management
+          platform connecting clinical, diagnostic,
+          financial and administrative operations.
+        </p>
+
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="col-lg-6">
+
+          <img
+            src="https://www.himstrio.com/assets/img/modal_image_1.png"
+            class="img-fluid rounded reveal-left"
+            alt="TRIO HIMS healthcare automation">
+
+        </div>
+
+
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+          <h3 class="reveal-right">
+            One platform for connected hospital operations
+          </h3>
+
+          <p class="fst-italic reveal-right">
+            TRIO HIMS brings different hospital workflows
+            together so teams can access the information
+            they need through an integrated system.
+          </p>
+
+
+          <ul class="reveal-right">
+
+            <li>
+              <i class="bi bi-check-circle"></i>
+
+              Centralized patient information and
+              hospital records.
+            </li>
+
+            <li>
+              <i class="bi bi-check-circle"></i>
+
+              Integrated clinical and diagnostic workflows.
+            </li>
+
+            <li>
+              <i class="bi bi-check-circle"></i>
+
+              Financial and administrative management.
+            </li>
+
+            <li>
+              <i class="bi bi-check-circle"></i>
+
+              Reporting and analytics for hospital operations.
+            </li>
+
+            <li>
+              <i class="bi bi-check-circle"></i>
+
+              Support for multiple hospital departments
+              through connected modules.
+            </li>
+
+          </ul>
+
+
+          <p class="reveal-right">
+
+            The platform is designed to simplify routine
+            operational tasks while improving access to
+            relevant information across departments.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       BENEFITS
+  ========================== -->
+
+  <section
+    id="benefits"
+    class="services section-bg">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">BENEFITS</span>
+
+        <h2>
+          Benefits
+        </h2>
+
+        <p>
+          Improve hospital operations with connected
+          information, streamlined workflows and
+          accessible data.
+        </p>
+
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-conversation"></i>
+            </div>
+
+            <h4>
+              Communication &amp; Collaboration
+            </h4>
+
+            <p>
+              Help hospital teams communicate and
+              coordinate activities through connected
+              information.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-timer"></i>
+            </div>
+
+            <h4>
+              Operational Efficiency
+            </h4>
+
+            <p>
+              Streamline routine hospital processes
+              and reduce unnecessary manual work.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-data"></i>
+            </div>
+
+            <h4>
+              Data Accuracy
+            </h4>
+
+            <p>
+              Keep relevant information organized
+              and accessible across connected workflows.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+            </div>
+
+            <h4>
+              Patient Care
+            </h4>
+
+            <p>
+              Support clinical teams with information
+              available throughout the patient journey.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-user-check"></i>
+            </div>
+
+            <h4>
+              Patient Engagement
+            </h4>
+
+            <p>
+              Improve the overall patient experience
+              through organized and connected workflows.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+          <div class="icon-box reveal-up">
+
+            <div class="icon">
+              <i class="bx bx-cog"></i>
+            </div>
+
+            <h4>
+              Task Automation
+            </h4>
+
+            <p>
+              Simplify repetitive operational tasks
+              through integrated hospital modules.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PATIENT JOURNEY
+  ========================== -->
+
+  <section
+    id="patient-journey"
+    class="patient-journey">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">PATIENT WORKFLOW</span>
+
+        <h2>
+          A Patient's Journey Through TRIO HIMS
+        </h2>
+
+        <p>
+          Follow a typical patient journey through
+          connected TRIO HIMS workflows.
+        </p>
+
+      </div>
+
+
+      <div class="journey-wrapper reveal-up">
+
+
+        <!-- Journey Steps -->
+
+        <div
+          class="journey-steps"
+          role="tablist"
+          aria-label="Patient journey">
+
+
+          <button
+            class="journey-step active"
+            data-panel="registration"
+            type="button"
+            role="tab"
+            aria-selected="true">
+
+            <span class="journey-number">
+              01
+            </span>
+
+            <i class="fas fa-user-plus"></i>
+
+            <span>
+              Registration
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="appointment"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              02
+            </span>
+
+            <i class="fas fa-calendar-check"></i>
+
+            <span>
+              Appointment
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="consultation"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              03
+            </span>
+
+            <i class="fas fa-user-md"></i>
+
+            <span>
+              Consultation
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="laboratory"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              04
+            </span>
+
+            <i class="fas fa-flask"></i>
+
+            <span>
+              Laboratory
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="radiology"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              05
+            </span>
+
+            <i class="fas fa-x-ray"></i>
+
+            <span>
+              Radiology
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="pharmacy"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              06
+            </span>
+
+            <i class="fas fa-pills"></i>
+
+            <span>
+              Pharmacy
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="billing"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              07
+            </span>
+
+            <i class="fas fa-file-invoice-dollar"></i>
+
+            <span>
+              Billing
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="discharge"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              08
+            </span>
+
+            <i class="fas fa-door-open"></i>
+
+            <span>
+              Discharge
+            </span>
+
+          </button>
+
+
+          <button
+            class="journey-step"
+            data-panel="ehr"
+            type="button"
+            role="tab"
+            aria-selected="false">
+
+            <span class="journey-number">
+              09
+            </span>
+
+            <i class="fas fa-notes-medical"></i>
+
+            <span>
+              EHR
+            </span>
+
+          </button>
+
+        </div>
+
+
+        <!-- Journey Panels -->
+
+        <div class="journey-panels">
+
+
+          <div
+            class="journey-panel active"
+            id="panel-registration"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 01
+              </span>
+
+              <h3>
+                Patient Registration
+              </h3>
+
+              <p>
+                Register patients and capture the
+                required information at the beginning
+                of their hospital journey.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Patient Details
+                </span>
+
+                <span>
+                  Registration
+                </span>
+
+                <span>
+                  Records
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-appointment"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 02
+              </span>
+
+              <h3>
+                Appointment
+              </h3>
+
+              <p>
+                Manage appointments and coordinate
+                patient visits with the appropriate
+                clinical teams.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Scheduling
+                </span>
+
+                <span>
+                  OPD
+                </span>
+
+                <span>
+                  Coordination
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-consultation"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 03
+              </span>
+
+              <h3>
+                Consultation
+              </h3>
+
+              <p>
+                Provide clinicians with patient
+                information and consultation workflows
+                required for clinical decision making.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Doctor
+                </span>
+
+                <span>
+                  OPD / IPD
+                </span>
+
+                <span>
+                  Clinical Records
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-laboratory"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-flask"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 04
+              </span>
+
+              <h3>
+                Laboratory
+              </h3>
+
+              <p>
+                Manage laboratory orders, samples and
+                diagnostic results as part of the
+                connected patient workflow.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  LIMS
+                </span>
+
+                <span>
+                  Samples
+                </span>
+
+                <span>
+                  Reports
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-radiology"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-x-ray"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 05
+              </span>
+
+              <h3>
+                Radiology
+              </h3>
+
+              <p>
+                Connect radiology workflows and
+                diagnostic information with the
+                patient's hospital record.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  RIS
+                </span>
+
+                <span>
+                  Imaging
+                </span>
+
+                <span>
+                  Reports
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-pharmacy"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-pills"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 06
+              </span>
+
+              <h3>
+                Pharmacy
+              </h3>
+
+              <p>
+                Manage medicines and pharmacy-related
+                activities connected with patient care.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Pharmacy
+                </span>
+
+                <span>
+                  Inventory
+                </span>
+
+                <span>
+                  Medicines
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-billing"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 07
+              </span>
+
+              <h3>
+                Billing
+              </h3>
+
+              <p>
+                Connect patient services and financial
+                activities through integrated billing
+                workflows.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Billing
+                </span>
+
+                <span>
+                  Cash Counter
+                </span>
+
+                <span>
+                  Financials
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-discharge"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-door-open"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 08
+              </span>
+
+              <h3>
+                Discharge
+              </h3>
+
+              <p>
+                Coordinate discharge-related activities
+                and make relevant patient information
+                available to the responsible teams.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  Discharge
+                </span>
+
+                <span>
+                  Billing
+                </span>
+
+                <span>
+                  Records
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="journey-panel"
+            id="panel-ehr"
+            role="tabpanel">
+
+            <div class="journey-panel-icon">
+              <i class="fas fa-notes-medical"></i>
+            </div>
+
+            <div>
+
+              <span class="journey-kicker">
+                Step 09
+              </span>
+
+              <h3>
+                Electronic Health Record
+              </h3>
+
+              <p>
+                Maintain a connected view of relevant
+                patient information throughout the
+                hospital journey.
+              </p>
+
+              <div class="journey-tags">
+
+                <span>
+                  EHR
+                </span>
+
+                <span>
+                  Patient History
+                </span>
+
+                <span>
+                  Clinical Data
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       ROLE EXPLORER
+  ========================== -->
+
+  <section
+    id="role-explorer"
+    class="role-explorer section-bg">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">FOR YOUR TEAM</span>
+
+        <h2>
+          Built for Every Healthcare Team
+        </h2>
+
+        <p>
+          See how different hospital teams can
+          interact with the system.
+        </p>
+
+      </div>
+
+
+      <div class="role-grid reveal-up">
+
+
+        <button
+          class="role-card active"
+          data-role="doctor"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-user-md"></i>
+          </span>
+
+          <strong>
+            Doctor
+          </strong>
+
+          <small>
+            Clinical care
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="nurse"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-user-nurse"></i>
+          </span>
+
+          <strong>
+            Nurse
+          </strong>
+
+          <small>
+            Patient care
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="reception"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-concierge-bell"></i>
+          </span>
+
+          <strong>
+            Reception
+          </strong>
+
+          <small>
+            Registration
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="laboratory"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-flask"></i>
+          </span>
+
+          <strong>
+            Laboratory
+          </strong>
+
+          <small>
+            Diagnostics
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="pharmacy"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-pills"></i>
+          </span>
+
+          <strong>
+            Pharmacy
+          </strong>
+
+          <small>
+            Medicines
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="billing"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+          </span>
+
+          <strong>
+            Billing
+          </strong>
+
+          <small>
+            Financial
+          </small>
+
+        </button>
+
+
+        <button
+          class="role-card"
+          data-role="admin"
+          type="button">
+
+          <span class="role-icon">
+            <i class="fas fa-hospital-user"></i>
+          </span>
+
+          <strong>
+            Hospital Admin
+          </strong>
+
+          <small>
+            Operations
+          </small>
+
+        </button>
+
+
+      </div>
+
+
+      <div class="role-details reveal-up">
+
+
+        <div
+          class="role-detail active"
+          id="role-doctor">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-user-md"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Clinical Workflow
+            </span>
+
+            <h3>
+              Doctor
+            </h3>
+
+            <p>
+              Access patient information, consultation
+              workflows, clinical records and relevant
+              diagnostic information.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Patient Records
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Consultation
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                EHR
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Diagnostic Reports
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-nurse">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-user-nurse"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Patient Care
+            </span>
+
+            <h3>
+              Nurse
+            </h3>
+
+            <p>
+              Support day-to-day patient care activities
+              and access information needed by nursing
+              teams.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Nursing
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Patient Information
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Care Coordination
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Clinical Updates
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-reception">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-concierge-bell"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Front Office
+            </span>
+
+            <h3>
+              Reception
+            </h3>
+
+            <p>
+              Manage patient registration, appointments
+              and front-office activities.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Registration
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Appointments
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                OPD
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Patient Search
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-laboratory">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Diagnostics
+            </span>
+
+            <h3>
+              Laboratory
+            </h3>
+
+            <p>
+              Manage laboratory workflows from sample
+              processing to diagnostic reporting.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                LIMS
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Sample Tracking
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Lab Reports
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Equipment Integration
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-pharmacy">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-pills"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Pharmacy
+            </span>
+
+            <h3>
+              Pharmacy
+            </h3>
+
+            <p>
+              Manage medicine-related workflows and
+              pharmacy inventory activities.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Pharmacy
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Inventory
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Medicine Management
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Billing
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-billing">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Financial Operations
+            </span>
+
+            <h3>
+              Billing
+            </h3>
+
+            <p>
+              Handle patient billing, cash counter
+              activities and financial workflows.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Billing
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Cash Counter
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Financial Accounting
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Reports
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="role-detail"
+          id="role-admin">
+
+          <div class="role-detail-icon">
+            <i class="fas fa-hospital-user"></i>
+          </div>
+
+          <div class="role-detail-content">
+
+            <span class="role-kicker">
+              Hospital Operations
+            </span>
+
+            <h3>
+              Hospital Administration
+            </h3>
+
+            <p>
+              Get an operational view of hospital
+              departments, resources, reports and
+              administrative activities.
+            </p>
+
+            <div class="role-features">
+
+              <span>
+                <i class="fas fa-check"></i>
+                Administration
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Reports
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Resource Management
+              </span>
+
+              <span>
+                <i class="fas fa-check"></i>
+                Analytics
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       WHO IS TRIO FOR?
+  ========================== -->
+
+  <section id="who-is-trio-for" class="who-for">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">DESIGNED FOR</span>
+
+        <h2>
+          Built for Different Healthcare Environments
+        </h2>
+
+        <p>
+          TRIO HIMS is designed to serve a range of healthcare settings,
+          from single-specialty hospitals to multi-department complexes.
+        </p>
+
+      </div>
+
+
+      <div class="who-for-grid reveal-up">
+
+        <div class="who-for-card">
+          <div class="who-for-icon">
+            <i class="fas fa-hospital"></i>
+          </div>
+          <h4>Hospitals</h4>
+          <p>Multi-department hospital operations with integrated clinical, diagnostic and administrative workflows.</p>
+        </div>
+
+        <div class="who-for-card">
+          <div class="who-for-icon">
+            <i class="fas fa-hospital-alt"></i>
+          </div>
+          <h4>Multi-Specialty Hospitals</h4>
+          <p>Large hospitals with multiple specialties requiring connected information across departments.</p>
+        </div>
+
+        <div class="who-for-card">
+          <div class="who-for-icon">
+            <i class="fas fa-clinic-medical"></i>
+          </div>
+          <h4>Clinics</h4>
+          <p>Outpatient and specialty clinics needing organized patient records and appointment management.</p>
+        </div>
+
+        <div class="who-for-card">
+          <div class="who-for-icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <h4>Diagnostic Centers</h4>
+          <p>Standalone diagnostic facilities focused on laboratory and radiology information workflows.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       MODULES
+  ========================== -->
+
+  <section
+    id="faq1"
+    class="faq section-bg">
+
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">MODULES</span>
+
+        <h2>
+          Explore TRIO HIMS Modules
+        </h2>
+
+        <p>
+          Search and filter the major functional areas supported
+          by TRIO HIMS.
+        </p>
+
+      </div>
+
+
+      <!-- Module Filters -->
+
+      <div
+        class="module-filters"
+        role="tablist"
+        aria-label="Module categories">
+
+        <button
+          class="module-filter-btn active"
+          data-filter="all"
+          type="button">
+
+          All Modules
+
+        </button>
+
+        <button
+          class="module-filter-btn"
+          data-filter="clinical"
+          type="button">
+
+          Clinical
+
+        </button>
+
+        <button
+          class="module-filter-btn"
+          data-filter="diagnostic"
+          type="button">
+
+          Diagnostic
+
+        </button>
+
+        <button
+          class="module-filter-btn"
+          data-filter="financial"
+          type="button">
+
+          Financial
+
+        </button>
+
+        <button
+          class="module-filter-btn"
+          data-filter="operations"
+          type="button">
+
+          Operations
+
+        </button>
+
+        <button
+          class="module-filter-btn"
+          data-filter="administration"
+          type="button">
+
+          Administration
+
+        </button>
+
+      </div>
+
+
+      <!-- Module Search -->
+
+      <div class="module-search-wrapper">
+
+        <div class="module-search-bar">
+
+          <i class="fas fa-search"></i>
+
+          <input
+            type="search"
+            id="moduleSearch"
+            placeholder="Search hospital modules..."
+            aria-label="Search hospital modules">
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="row module-list"
+        id="module-list">
+
+
+        <!-- Clinical -->
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="clinical"
+          data-name="Patient Consultation OPD IPD">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Patient Consultation
+              </h4>
+
+              <p>
+                OPD / IPD consultation workflows
+                and clinical records.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="clinical"
+          data-name="EHR Electronic Health Records">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-notes-medical"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Electronic Health Records
+              </h4>
+
+              <p>
+                Maintain connected patient health
+                information and clinical history.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="clinical"
+          data-name="Nursing">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-user-nurse"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Nursing
+              </h4>
+
+              <p>
+                Support nursing workflows and
+                patient care activities.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Diagnostic -->
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="diagnostic"
+          data-name="LIMS Laboratory Information Management System">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-flask"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                LIMS
+              </h4>
+
+              <p>
+                Laboratory workflows, sample tracking
+                and diagnostic reporting.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="diagnostic"
+          data-name="RIS Radiology Information System">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-x-ray"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                RIS
+              </h4>
+
+              <p>
+                Radiology information and diagnostic
+                imaging workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="diagnostic"
+          data-name="External Equipment Integration">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-microscope"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Equipment Integration
+              </h4>
+
+              <p>
+                Connect supported external medical
+                equipment with hospital workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Financial -->
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="financial"
+          data-name="Billing Cash Counter">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Billing / Cash Counter
+              </h4>
+
+              <p>
+                Manage billing and patient payment
+                related workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="financial"
+          data-name="Financial Accounting Tally Integration">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Financial Accounting
+              </h4>
+
+              <p>
+                Support hospital accounting workflows
+                and Tally integration.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Operations -->
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="operations"
+          data-name="Pharmacy">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-pills"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Pharmacy
+              </h4>
+
+              <p>
+                Manage pharmacy activities and
+                medicine-related workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="operations"
+          data-name="Stores Inventory">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-boxes-stacked"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Stores / Inventory
+              </h4>
+
+              <p>
+                Track inventory and hospital
+                stores-related activities.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="operations"
+          data-name="Operation Theatre OT">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-procedures"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Operation Theatre
+              </h4>
+
+              <p>
+                Support OT scheduling and
+                operational workflows.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="operations"
+          data-name="Diet Kitchen">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Diet / Kitchen
+              </h4>
+
+              <p>
+                Support diet and kitchen activities
+                within hospital operations.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Administration -->
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="administration"
+          data-name="Human Resources HR">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-users"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Human Resources
+              </h4>
+
+              <p>
+                Support HR-related hospital
+                administration activities.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="administration"
+          data-name="Asset Maintenance">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-screwdriver-wrench"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Asset Maintenance
+              </h4>
+
+              <p>
+                Manage hospital assets and
+                maintenance-related activities.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="administration"
+          data-name="Visitor Management">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-id-card"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                Visitor Management
+              </h4>
+
+              <p>
+                Manage visitor-related activities
+                within hospital operations.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="col-lg-4 col-md-6 module-item"
+          data-category="administration"
+          data-name="License Management">
+
+          <div class="module-box reveal-up">
+
+            <div class="module-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+
+            <div>
+
+              <h4>
+                License Management
+              </h4>
+
+              <p>
+                Organize hospital license and
+                compliance-related information.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div
+        id="module-no-results"
+        class="module-no-results"
+        hidden>
+
+        <i class="fas fa-search"></i>
+
+        <h4>
+          No modules found
+        </h4>
+
+        <p>
+          Try another search term or category.
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- =========================
+         MODULE DETAIL MODAL
+    ========================== -->
+    <div id="moduleModal" class="modal fade" tabindex="-1" aria-labelledby="moduleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow-lg border-0">
+          <div class="modal-header border-bottom pb-3">
+            <div class="d-flex align-items-center gap-3">
+              <div id="modalModuleIcon" class="module-modal-icon">
+                <i class="fas fa-cube"></i>
+              </div>
+              <div>
+                <span id="modalModuleCategory" class="badge bg-primary-subtle text-primary fw-bold text-uppercase px-2 py-1">Clinical</span>
+                <h4 class="modal-title fw-bold text-secondary mb-0 mt-1" id="moduleModalLabel">Module Title</h4>
+              </div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <p id="modalModuleDesc" class="lead fs-6 text-muted mb-4"></p>
+            
+            <div class="row g-4">
+              <div class="col-md-7">
+                <h6 class="fw-bold text-secondary mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Key Capabilities</h6>
+                <ul id="modalModuleFeatures" class="list-unstyled mb-0 d-flex flex-column gap-2 text-secondary">
+                </ul>
+              </div>
+              <div class="col-md-5">
+                <div class="p-3 bg-light rounded-3 mb-3 border">
+                  <h6 class="fw-bold text-secondary mb-2"><i class="fas fa-sitemap text-primary me-2"></i>Related Departments</h6>
+                  <p id="modalModuleDept" class="small text-muted mb-0"></p>
+                </div>
+                <div class="p-3 bg-light rounded-3 border">
+                  <h6 class="fw-bold text-secondary mb-2"><i class="fas fa-sync-alt text-primary me-2"></i>Integrated Workflow</h6>
+                  <p id="modalModuleWorkflow" class="small text-muted mb-0"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-light border-top">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#myModalll" data-bs-toggle="modal" class="btn btn-primary">Schedule Demo for this Module</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       WORKFLOWS
+  ========================== -->
+
+  <section
+    id="departments"
+    class="workflows-section">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">WORKFLOWS</span>
+
+        <h2>
+          HIMS Workflows
+        </h2>
+
+        <p>
+          Understand how different hospital
+          departments connect through the system.
+        </p>
+
+      </div>
+
+
+      <div
+        class="workflow-tabs"
+        role="tablist">
+
+
+        <button
+          class="workflow-tab active"
+          data-workflow="opd"
+          type="button">
+
+          <i class="fas fa-user-injured"></i>
+
+          OPD
+
+        </button>
+
+
+        <button
+          class="workflow-tab"
+          data-workflow="ipd"
+          type="button">
+
+          <i class="fas fa-bed"></i>
+
+          IPD
+
+        </button>
+
+
+        <button
+          class="workflow-tab"
+          data-workflow="radiology"
+          type="button">
+
+          <i class="fas fa-x-ray"></i>
+
+          Radiology
+
+        </button>
+
+
+        <button
+          class="workflow-tab"
+          data-workflow="lab"
+          type="button">
+
+          <i class="fas fa-flask"></i>
+
+          Laboratory
+
+        </button>
+
+
+        <button
+          class="workflow-tab"
+          data-workflow="accounting"
+          type="button">
+
+          <i class="fas fa-calculator"></i>
+
+          Accounting
+
+        </button>
+
+
+        <button
+          class="workflow-tab"
+          data-workflow="tech"
+          type="button">
+
+          <i class="fas fa-cogs"></i>
+
+          Technology
+
+        </button>
+
+      </div>
+
+
+      <div class="workflow-panels">
+
+
+        <div
+          class="wf-panel active"
+          id="wf-opd">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              OUTPATIENT DEPARTMENT
+            </span>
+
+            <h3>
+              OPD Workflow
+            </h3>
+
+            <p>
+              Connect registration, appointment,
+              consultation, diagnostics and billing
+              through an organized outpatient workflow.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                Registration
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Appointment
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Consultation
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Diagnostics
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Billing
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="wf-panel"
+          id="wf-ipd">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              INPATIENT DEPARTMENT
+            </span>
+
+            <h3>
+              IPD Workflow
+            </h3>
+
+            <p>
+              Support inpatient admission, clinical
+              care, diagnostics, pharmacy, billing
+              and discharge activities.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                Admission
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Nursing
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Diagnostics
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Pharmacy
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Discharge
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="wf-panel"
+          id="wf-radiology">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              DIAGNOSTIC
+            </span>
+
+            <h3>
+              Radiology Workflow
+            </h3>
+
+            <p>
+              Connect radiology requests, diagnostic
+              imaging and reporting with patient
+              information.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                Order
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Scheduling
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Imaging
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Report
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                EHR
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="wf-panel"
+          id="wf-lab">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              DIAGNOSTIC
+            </span>
+
+            <h3>
+              Laboratory Workflow
+            </h3>
+
+            <p>
+              Track laboratory requests and samples
+              through testing and result reporting.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                Test Order
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Sample
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Processing
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Result
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Report
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="wf-panel"
+          id="wf-accounting">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              FINANCIAL
+            </span>
+
+            <h3>
+              Accounting Workflow
+            </h3>
+
+            <p>
+              Connect billing, cash counter and
+              financial accounting activities.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                Service
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Billing
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Payment
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Accounting
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Reports
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="wf-panel"
+          id="wf-tech">
+
+          <div class="workflow-content">
+
+            <span class="workflow-kicker">
+              TECHNOLOGY
+            </span>
+
+            <h3>
+              Integrated Technology
+            </h3>
+
+            <p>
+              TRIO HIMS supports web/cloud-based
+              hospital operations with integrated
+              data modules and external equipment
+              interfacing.
+            </p>
+
+
+            <div class="workflow-flow">
+
+              <span>
+                HIMS
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Data Modules
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Equipment
+              </span>
+
+              <i class="fas fa-arrow-right"></i>
+
+              <span>
+                Reporting
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       BEFORE / WITH TRIO
+  ========================== -->
+
+  <section id="before-with-trio" class="before-with-trio">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">TRANSFORMATION</span>
+
+        <h2>
+          From Manual Processes to Connected Operations
+        </h2>
+
+        <p>
+          See how TRIO HIMS changes day-to-day hospital workflows.
+        </p>
+
+      </div>
+
+
+      <div class="bwt-wrapper reveal-up">
+
+        <div class="bwt-col bwt-before">
+          <div class="bwt-header">
+            <i class="fas fa-times-circle"></i>
+            <h3>Before TRIO</h3>
+          </div>
+          <ul class="bwt-list">
+            <li><i class="fas fa-exclamation-triangle"></i> Manual patient registration and paper records</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Fragmented information across departments</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Repetitive data entry across multiple registers</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Difficult to track patient status and history</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Disconnected billing and clinical workflows</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Limited operational visibility for management</li>
+          </ul>
+        </div>
+
+        <div class="bwt-divider">
+          <span class="bwt-arrow"><i class="fas fa-arrow-right"></i></span>
+        </div>
+
+        <div class="bwt-col bwt-after">
+          <div class="bwt-header">
+            <i class="fas fa-check-circle"></i>
+            <h3>With TRIO HIMS</h3>
+          </div>
+          <ul class="bwt-list">
+            <li><i class="fas fa-check"></i> Centralized patient records and digital information</li>
+            <li><i class="fas fa-check"></i> Connected workflows across all hospital departments</li>
+            <li><i class="fas fa-check"></i> Information captured once, accessible everywhere</li>
+            <li><i class="fas fa-check"></i> Real-time patient journey and status visibility</li>
+            <li><i class="fas fa-check"></i> Integrated billing with clinical and pharmacy workflows</li>
+            <li><i class="fas fa-check"></i> Reporting and analytics for hospital operations</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Continue with HTML Part 3/4 -->
+
+    <!-- =========================
+       INTEGRATIONS
+  ========================== -->
+
+  <section
+    id="integrations"
+    class="integrations section-bg">
+
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">INTEGRATIONS</span>
+
+        <h2>
+          Connect TRIO With Your Hospital Ecosystem
+        </h2>
+
+        <p>
+          Connect hospital departments, data and
+          supported external systems through one
+          integrated platform.
+        </p>
+
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-microchip"></i>
+
+            </div>
+
+            <h4>
+              External Equipment
+            </h4>
+
+            <p>
+              Support integration with external
+              medical equipment where required.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-calculator"></i>
+
+            </div>
+
+            <h4>
+              Tally Integration
+            </h4>
+
+            <p>
+              Connect financial accounting workflows
+              with supported Tally integration.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-database"></i>
+
+            </div>
+
+            <h4>
+              Integrated Data
+            </h4>
+
+            <p>
+              Keep information connected across
+              different hospital modules.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-cloud"></i>
+
+            </div>
+
+            <h4>
+              Web / Cloud
+            </h4>
+
+            <p>
+              Access a web-based system designed
+              for connected healthcare operations.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-shield-halved"></i>
+
+            </div>
+
+            <h4>
+              Data Security
+            </h4>
+
+            <p>
+              Designed with data security and
+              compliance requirements in mind.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="integration-card reveal-up">
+
+            <div class="integration-icon">
+
+              <i class="fas fa-chart-line"></i>
+
+            </div>
+
+            <h4>
+              Reporting &amp; Analytics
+            </h4>
+
+            <p>
+              Use connected information for reporting,
+              analysis and operational visibility.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       MODULE FINDER
+  ========================== -->
+
+  <section
+    id="module-finder"
+    class="module-finder">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">FIND YOUR FIT</span>
+
+        <h2>
+          Find the Modules You Need
+        </h2>
+
+        <p>
+          Select the hospital functions you are
+          interested in and explore related modules.
+        </p>
+
+      </div>
+
+
+      <div class="finder-wrapper reveal-up">
+
+
+        <div class="finder-left">
+
+          <h3>
+            What does your hospital need?
+          </h3>
+
+          <p>
+            Select one or more areas.
+          </p>
+
+
+          <div class="finder-checkboxes">
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="clinical">
+
+              <span>
+                <i class="fas fa-user-md"></i>
+                Clinical Care
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="lab">
+
+              <span>
+                <i class="fas fa-flask"></i>
+                Laboratory
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="pharmacy">
+
+              <span>
+                <i class="fas fa-pills"></i>
+                Pharmacy
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="billing">
+
+              <span>
+                <i class="fas fa-file-invoice-dollar"></i>
+                Billing
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="hr">
+
+              <span>
+                <i class="fas fa-users"></i>
+                Human Resources
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="inventory">
+
+              <span>
+                <i class="fas fa-boxes-stacked"></i>
+                Inventory
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="radiology">
+
+              <span>
+                <i class="fas fa-x-ray"></i>
+                Radiology
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="accounting">
+
+              <span>
+                <i class="fas fa-calculator"></i>
+                Accounting
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="ot">
+
+              <span>
+                <i class="fas fa-procedures"></i>
+                Operation Theatre
+              </span>
+
+            </label>
+
+
+            <label class="finder-check">
+
+              <input
+                type="checkbox"
+                value="admin">
+
+              <span>
+                <i class="fas fa-hospital-user"></i>
+                Administration
+              </span>
+
+            </label>
+
+
+          </div>
+
+
+          <div class="finder-actions">
+
+            <button
+              type="button"
+              class="btn-get-started"
+              id="findModulesBtn">
+
+              Find Modules
+
+            </button>
+
+
+            <button
+              type="button"
+              class="finder-reset"
+              id="resetFinderBtn">
+
+              Reset
+
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="finder-results">
+
+          <div class="finder-results-header">
+
+            <span class="finder-results-kicker">
+              RECOMMENDED
+            </span>
+
+            <h3>
+              Related HIMS Modules
+            </h3>
+
+          </div>
+
+
+          <div
+            id="finderResultList"
+            class="finder-result-list">
+
+            <div class="finder-empty">
+
+              <i class="fas fa-arrow-left"></i>
+
+              <p>
+                Select an area to see related modules.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       TRUSTED BY
+  ========================== -->
+
+  <section
+    id="clients"
+    class="clients">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <h2>
+          Trusted By
+        </h2>
+
+        <p>
+          Hospitals and healthcare organizations
+          using TRIO solutions.
+        </p>
+
+      </div>
+
+
+      <div
+        class="swiper clients-slider"
+        data-aos="fade-up">
+
+        <div class="swiper-wrapper">
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/Quuens%20logo.png"
+              class="img-fluid"
+              alt="Queens Hospital">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/lifeline.jpeg"
+              class="img-fluid"
+              alt="Lifeline">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/SWui/Logo%20%281%29.png"
+              class="img-fluid"
+              alt="Hospital client">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/SWui/logoMain.jpg"
+              class="img-fluid"
+              alt="Hospital client">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/SWui/WhatsApp%20Image%202022-12-28%20at%209.16.32%20PM.jpeg"
+              class="img-fluid"
+              alt="Hospital client">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/kedarnathlogo.jpg"
+              class="img-fluid"
+              alt="Kedarnath">
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <img
+              src="https://www.himstrio.com/assets/img/ssd.jpeg"
+              class="img-fluid"
+              alt="SSD">
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       TESTIMONIALS
+  ========================== -->
+
+  <section
+    id="testimonialsd"
+    class="testimonials">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">TESTIMONIALS</span>
+
+        <h2>
+          What Hospitals Say About TRIO
+        </h2>
+
+        <p>
+          Feedback from healthcare organizations
+          working with TRIO.
+        </p>
+
+      </div>
+
+
+      <div
+        class="testimonials-slider swiper"
+        data-aos="fade-up">
+
+        <div class="swiper-wrapper">
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial-wrap">
+
+              <div class="testimonial-item">
+
+                <img
+                  src="https://www.himstrio.com/assets/img/Quuens%20logo.png"
+                  class="testimonial-img"
+                  alt="Hospital">
+
+                <h3>
+                  Hospital Team
+                </h3>
+
+                <h4>
+                  Healthcare Organization
+                </h4>
+
+                <div class="stars">
+
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+
+                </div>
+
+                <p>
+
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+
+                  TRIO HIMS provides an integrated
+                  approach to hospital information
+                  management and operational workflows.
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial-wrap">
+
+              <div class="testimonial-item">
+
+                <img
+                  src="https://www.himstrio.com/assets/img/lifeline.jpeg"
+                  class="testimonial-img"
+                  alt="Lifeline">
+
+                <h3>
+                  Hospital Team
+                </h3>
+
+                <h4>
+                  Healthcare Organization
+                </h4>
+
+                <div class="stars">
+
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+
+                </div>
+
+                <p>
+
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+
+                  Connected hospital modules help
+                  teams access relevant information
+                  during daily operations.
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial-wrap">
+
+              <div class="testimonial-item">
+
+                <img
+                  src="https://www.himstrio.com/assets/img/kedarnathlogo.jpg"
+                  class="testimonial-img"
+                  alt="Hospital">
+
+                <h3>
+                  Hospital Team
+                </h3>
+
+                <h4>
+                  Healthcare Organization
+                </h4>
+
+                <div class="stars">
+
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+
+                </div>
+
+                <p>
+
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+
+                  The system brings multiple
+                  operational areas together through
+                  a centralized platform.
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FAQ
+  ========================== -->
+
+  <section
+    id="faq"
+    class="faq">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">FAQ</span>
+
+        <h2>
+          Frequently Asked Questions
+        </h2>
+
+        <p>
+          Common questions about TRIO HIMS.
+        </p>
+
+      </div>
+
+
+      <div class="faq-list">
+
+
+        <ul>
+
+
+          <li
+            data-aos="fade-up"
+            data-aos-delay="100">
+
+            <i class="bx bx-help-circle icon-help"></i>
+
+            <a
+              data-bs-toggle="collapse"
+              class="collapse"
+              data-bs-target="#faq-list-1">
+
+              What is TRIO HIMS?
+
+              <i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i>
+
+            </a>
+
+
+            <div
+              id="faq-list-1"
+              class="collapse show"
+              data-bs-parent=".faq-list">
+
+              <p>
+
+                TRIO HIMS is a Hospital Information
+                Management System designed to help
+                hospitals manage clinical, diagnostic,
+                financial and operational workflows
+                through an integrated platform.
+
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li
+            data-aos="fade-up"
+            data-aos-delay="150">
+
+            <i class="bx bx-help-circle icon-help"></i>
+
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target="#faq-list-2"
+              class="collapsed">
+
+              Is TRIO HIMS web based?
+
+              <i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i>
+
+            </a>
+
+
+            <div
+              id="faq-list-2"
+              class="collapse"
+              data-bs-parent=".faq-list">
+
+              <p>
+
+                TRIO HIMS is designed as a web/cloud-based
+                hospital information management solution.
+
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li
+            data-aos="fade-up"
+            data-aos-delay="200">
+
+            <i class="bx bx-help-circle icon-help"></i>
+
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target="#faq-list-3"
+              class="collapsed">
+
+              What hospital departments can use it?
+
+              <i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i>
+
+            </a>
+
+
+            <div
+              id="faq-list-3"
+              class="collapse"
+              data-bs-parent=".faq-list">
+
+              <p>
+
+                The platform supports different areas
+                including clinical care, laboratory,
+                radiology, pharmacy, billing, accounting,
+                nursing, HR, inventory and hospital
+                administration.
+
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li
+            data-aos="fade-up"
+            data-aos-delay="250">
+
+            <i class="bx bx-help-circle icon-help"></i>
+
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target="#faq-list-4"
+              class="collapsed">
+
+              Can TRIO HIMS integrate with external equipment?
+
+              <i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i>
+
+            </a>
+
+
+            <div
+              id="faq-list-4"
+              class="collapse"
+              data-bs-parent=".faq-list">
+
+              <p>
+
+                TRIO HIMS provides support for external
+                equipment interfacing as part of its
+                integrated hospital technology approach.
+
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li
+            data-aos="fade-up"
+            data-aos-delay="300">
+
+            <i class="bx bx-help-circle icon-help"></i>
+
+            <a
+              data-bs-toggle="collapse"
+              data-bs-target="#faq-list-5"
+              class="collapsed">
+
+              How can I request a demo?
+
+              <i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i>
+
+            </a>
+
+
+            <div
+              id="faq-list-5"
+              class="collapse"
+              data-bs-parent=".faq-list">
+
+              <p>
+
+                Use the Request Demo button on the
+                website to submit your details and
+                connect with the TRIO team.
+
+              </p>
+
+            </div>
+
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       60-SECOND PRODUCT TOUR
+  ========================== -->
+
+  <section id="product-tour" class="product-tour section-bg">
+    <div class="container">
+      <div class="section-title reveal-fade">
+        <span class="section-label">QUICK TOUR</span>
+        <h2>Take a Quick Product Tour</h2>
+        <p>A step-by-step walkthrough of the end-to-end patient and operational lifecycle in TRIO HIMS.</p>
+      </div>
+
+      <div class="tour-wrapper reveal-up">
+        <div class="tour-steps" role="tablist" aria-label="Product Tour Steps">
+          <button class="tour-step active" data-tour="0" type="button" role="tab" aria-selected="true">
+            <span class="tour-step-num">01</span>
+            <span class="tour-step-title">Registration</span>
+          </button>
+          <button class="tour-step" data-tour="1" type="button" role="tab" aria-selected="false">
+            <span class="tour-step-num">02</span>
+            <span class="tour-step-title">Consultation</span>
+          </button>
+          <button class="tour-step" data-tour="2" type="button" role="tab" aria-selected="false">
+            <span class="tour-step-num">03</span>
+            <span class="tour-step-title">Diagnostics</span>
+          </button>
+          <button class="tour-step" data-tour="3" type="button" role="tab" aria-selected="false">
+            <span class="tour-step-num">04</span>
+            <span class="tour-step-title">Pharmacy</span>
+          </button>
+          <button class="tour-step" data-tour="4" type="button" role="tab" aria-selected="false">
+            <span class="tour-step-num">05</span>
+            <span class="tour-step-title">Billing</span>
+          </button>
+          <button class="tour-step" data-tour="5" type="button" role="tab" aria-selected="false">
+            <span class="tour-step-num">06</span>
+            <span class="tour-step-title">Reports</span>
+          </button>
+        </div>
+
+        <div class="tour-progress" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="6">
+          <div class="tour-progress-bar" id="tourProgressBar"></div>
+        </div>
+
+        <div class="tour-panels">
+          <div class="tour-panel active" data-panel="0" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 01 — FRONT DESK &amp; ADMISSION</span>
+              <h3>Digital Patient Registration</h3>
+              <p>Capture comprehensive patient demographics, emergency contacts, insurance eligibility, and triage notes in seconds. Generates unique UHID barcode tags that automatically synchronize with all hospital modules.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> UHID Generation</span>
+                <span><i class="fas fa-check"></i> Insurance Capture</span>
+                <span><i class="fas fa-check"></i> Barcode Tagging</span>
+                <span><i class="fas fa-check"></i> Queue Allocation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-panel" data-panel="1" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 02 — CLINICAL CONSULTATION</span>
+              <h3>Doctor Consultation &amp; EHR</h3>
+              <p>Doctors access unified patient medical histories, vitals, allergy alerts, past diagnoses, and digital clinical templates. Prescriptions, lab investigation requests, and radiology orders are sent directly across departments.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> Unified EHR</span>
+                <span><i class="fas fa-check"></i> Digital Prescriptions</span>
+                <span><i class="fas fa-check"></i> Diagnostic Orders</span>
+                <span><i class="fas fa-check"></i> Clinical Decision Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-panel" data-panel="2" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 03 — DIAGNOSTICS &amp; LAB</span>
+              <h3>Integrated LIMS &amp; RIS Workflows</h3>
+              <p>Sample collection with barcoding, automated analyzer machine interfacing, test verification, and immediate report publishing. Doctors receive real-time notifications for critical parameter alerts.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> Analyzer Interfacing</span>
+                <span><i class="fas fa-check"></i> Barcode Tracking</span>
+                <span><i class="fas fa-check"></i> Doctor Verification</span>
+                <span><i class="fas fa-check"></i> Critical Value Alerts</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-panel" data-panel="3" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-pills"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 04 — PHARMACY &amp; STORES</span>
+              <h3>Connected Pharmacy Operations</h3>
+              <p>Prescriptions instantly display in the pharmacy dispensing queue. Real-time batch-level inventory tracking, expiry alerts, and automatic deduction prevent stockouts and medication errors.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> E-Prescription Queue</span>
+                <span><i class="fas fa-check"></i> Batch &amp; Expiry Control</span>
+                <span><i class="fas fa-check"></i> Inventory Deduction</span>
+                <span><i class="fas fa-check"></i> Direct Counter Billing</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-panel" data-panel="4" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 05 — BILLING &amp; DISCHARGE</span>
+              <h3>Consolidated Hospital Billing</h3>
+              <p>Automated charge aggregation from consultation, investigations, medicines, procedures, and bed occupancy. Transparent invoicing with TPA/cash handling and zero revenue leakage.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> Centralized Billing</span>
+                <span><i class="fas fa-check"></i> Insurance &amp; TPA</span>
+                <span><i class="fas fa-check"></i> Audit Trail</span>
+                <span><i class="fas fa-check"></i> Tally Integration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-panel" data-panel="5" role="tabpanel">
+            <div class="tour-panel-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <div class="tour-panel-content">
+              <span class="tour-kicker">STEP 06 — MANAGEMENT INSIGHTS</span>
+              <h3>Administrative Reports &amp; Analytics</h3>
+              <p>Executive dashboards track hospital KPIs, bed occupancy rates, department turnaround times, doctor OPD statistics, and revenue insights for data-driven administrative decisions.</p>
+              <div class="tour-tags">
+                <span><i class="fas fa-check"></i> Real-time KPIs</span>
+                <span><i class="fas fa-check"></i> Occupancy Metrics</span>
+                <span><i class="fas fa-check"></i> Revenue Reports</span>
+                <span><i class="fas fa-check"></i> Statutory Compliance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-nav">
+          <button type="button" class="tour-btn-prev" id="tourPrev" aria-label="Previous step">
+            <i class="fas fa-chevron-left"></i> Previous
+          </button>
+          <span class="tour-counter" id="tourCounter">Step 1 of 6</span>
+          <button type="button" class="tour-btn-next" id="tourNext" aria-label="Next step">
+            Next <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================
+       DEMO CTA
+  ========================== -->
+
+  <section
+    id="cta"
+    class="cta">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-9 text-center text-lg-start">
+
+          <h3>
+            See TRIO HIMS in Action
+          </h3>
+
+          <p>
+            Explore an integrated hospital information
+            management system designed to simplify
+            operational workflows.
+          </p>
+
+        </div>
+
+
+        <div class="col-lg-3 cta-btn-container text-center">
+
+          <a
+            class="cta-btn align-middle"
+            href="#myModalll"
+            data-bs-toggle="modal">
+
+            Request Demo
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       CONTACT
+  ========================== -->
+
+  <section
+    id="contact"
+    class="contact">
+
+    <div class="container">
+
+      <div class="section-title reveal-fade">
+
+        <span class="section-label">GET IN TOUCH</span>
+
+        <h2>
+          See How TRIO Can Fit Your Hospital
+        </h2>
+
+        <p>
+          Schedule a personalized demo with our team and explore
+          how TRIO HIMS can support your hospital operations.
+        </p>
+
+      </div>
+
+
+      <div class="row mt-1">
+
+
+        <div class="col-lg-5">
+
+
+          <div class="info">
+
+
+            <div class="address">
+
+              <i class="bi bi-geo-alt"></i>
+
+              <h4>
+                Location:
+              </h4>
+
+              <p>
+                Dhruta Complex, Office 104 &amp; 105,
+                Narayan Peth, Pune, Maharashtra
+              </p>
+
+            </div>
+
+
+            <div class="email">
+
+              <i class="bi bi-envelope"></i>
+
+              <h4>
+                Email:
+              </h4>
+
+              <p>
+                info@triocorporation.in
+              </p>
+
+            </div>
+
+
+            <div class="phone">
+
+              <i class="bi bi-phone"></i>
+
+              <h4>
+                Call:
+              </h4>
+
+              <p>
+                +91 9021 023 456
+              </p>
+
+            </div>
+
+
+            <div class="contact-hours">
+
+              <i class="bi bi-clock"></i>
+
+              <h4>
+                Support:
+              </h4>
+
+              <p>
+                Contact the TRIO team for product
+                information and demo enquiries.
+              </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-7 mt-5 mt-lg-0">
+
+
+          <form
+            action="https://www.himstrio.com/assets/api/curl.php"
+            method="post"
+            role="form"
+            class="php-email-form"
+            id="contactForm">
+
+
+            <div class="row">
+
+
+              <div class="col-md-6 form-group">
+
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="contactName"
+                  placeholder="Your Name"
+                  required>
+
+              </div>
+
+
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="contactEmail"
+                  placeholder="Your Email"
+                  required>
+
+              </div>
+
+            </div>
+
+
+            <div class="row">
+
+              <div class="col-md-6 form-group mt-3">
+
+                <input
+                  type="tel"
+                  class="form-control"
+                  name="phone"
+                  id="contactPhone"
+                  placeholder="Your Phone Number"
+                  pattern="[1-9]{1}[0-9]{9}"
+                  required>
+
+              </div>
+
+              <div class="col-md-6 form-group mt-3">
+
+                <input
+                  type="text"
+                  class="form-control"
+                  name="organization"
+                  id="contactOrg"
+                  placeholder="Hospital / Healthcare Organization"
+                  required>
+
+              </div>
+
+            </div>
+
+
+            <div class="row">
+
+              <div class="col-md-6 form-group mt-3">
+
+                <select class="form-select" name="org_type" id="contactOrgType" required>
+                  <option value="" disabled selected>Select Organization Type</option>
+                  <option value="Multi-specialty Hospital">Multi-specialty Hospital</option>
+                  <option value="General Hospital">General Hospital</option>
+                  <option value="Single-Specialty / Clinic">Single-Specialty / Clinic</option>
+                  <option value="Diagnostic / Pathology Center">Diagnostic / Pathology Center</option>
+                  <option value="Day Care Center">Day Care Center</option>
+                </select>
+
+              </div>
+
+              <div class="col-md-6 form-group mt-3">
+
+                <select class="form-select" name="interested_module" id="contactModule">
+                  <option value="" selected>Interested Module / Focus Area (Optional)</option>
+                  <option value="Complete All-in-One HIMS">Complete All-in-One HIMS</option>
+                  <option value="Clinical & EHR (OPD / IPD)">Clinical &amp; EHR (OPD / IPD)</option>
+                  <option value="Laboratory (LIMS)">Laboratory (LIMS)</option>
+                  <option value="Radiology (RIS)">Radiology (RIS)</option>
+                  <option value="Billing & Accounting">Billing &amp; Accounting</option>
+                  <option value="Pharmacy & Stores">Pharmacy &amp; Stores</option>
+                </select>
+
+              </div>
+
+            </div>
+
+
+            <div class="form-group mt-3">
+
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="contactSubject"
+                placeholder="Subject / Specific Requirement"
+                required>
+
+            </div>
+
+
+            <div class="form-group mt-3">
+
+              <textarea
+                class="form-control"
+                name="message"
+                rows="4"
+                id="contactMessage"
+                placeholder="Message (Bed capacity, current systems, target timeline, etc.)"
+                required></textarea>
+
+            </div>
+
+
+            <div class="my-3">
+              <div class="loading" style="display:none;">Loading...</div>
+              <div class="error-message" style="display:none; color:red; font-size:14px; margin-top:8px;"></div>
+              <div class="sent-message" style="display:none; color:green; font-weight:600; font-size:15px; margin-top:8px; background:#eaf8f1; padding:12px; border-radius:6px;">Your demo request has been received. Our healthcare solutions team will contact you shortly.</div>
+            </div>
+
+
+            <div class="text-center mt-3">
+
+              <button
+                type="submit"
+                id="contactSubmitBtn">
+
+                Book a Personalized Demo
+
+              </button>
+
+            </div>
+
+
+          </form>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Continue with HTML Part 4/4 -->
+
+    <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row">
+
+
+          <!-- About -->
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+
+            <h3>
+              TRIO
+            </h3>
+
+            <p>
+
+              TRIO Corporation Pvt. Ltd.
+
+              <br><br>
+
+              Dhruta Complex,
+              Office 104 &amp; 105
+
+              <br>
+
+              Narayan Peth,
+              Pune, Maharashtra
+
+              <br><br>
+
+              <strong>Phone:</strong>
+              +91 9021 023 456
+
+              <br>
+
+              <strong>Email:</strong>
+              info@triocorporation.in
+
+            </p>
+
+          </div>
+
+
+          <!-- Useful Links -->
+
+          <div class="col-lg-2 col-md-6 footer-links">
+
+            <h4>
+              Useful Links
+            </h4>
+
+            <ul>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#hero">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#product-preview">
+                  Product Preview
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#faq1">
+                  Modules
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#departments">
+                  Workflows
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#contact">
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!-- HIMS -->
+
+          <div class="col-lg-3 col-md-6 footer-links">
+
+            <h4>
+              TRIO HIMS
+            </h4>
+
+            <ul>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#patient-journey">
+                  Patient Journey
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#role-explorer">
+                  Explore by Role
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#product-tour">
+                  60-Sec Product Tour
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#who-is-trio-for">
+                  Who Is TRIO For
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#before-with-trio">
+                  Before vs With TRIO
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#integrations">
+                  Integrations
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#module-finder">
+                  Module Finder
+                </a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#testimonialsd">
+                  Testimonials
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!-- Social -->
+
+          <div class="col-lg-3 col-md-6 footer-links">
+
+            <h4>
+              Follow Us
+            </h4>
+
+            <p>
+              Connect with TRIO Corporation
+              through our social channels.
+            </p>
+
+
+            <div class="social-links mt-3">
+
+              <a
+                href="https://twitter.com/CorporationTrio"
+                class="twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter">
+
+                <i class="fab fa-x-twitter"></i>
+
+              </a>
+
+
+              <a
+                href="https://www.facebook.com/trioindia"
+                class="facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+              </a>
+
+
+              <a
+                href="https://www.instagram.com/triocorporationitservices/"
+                class="instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram">
+
+                <i class="fab fa-instagram"></i>
+
+              </a>
+
+
+              <a
+                href="https://www.linkedin.com/company/trio-corporation-pvt-ltd-/"
+                class="linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+              </a>
+
+
+              <a
+                href="https://www.youtube.com/@triocorporation2512"
+                class="youtube"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube">
+
+                <i class="fab fa-youtube"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Footer Bottom -->
+
+    <div class="container d-md-flex py-4">
+
+
+      <div class="me-md-auto text-center text-md-start">
+
+        <div class="copyright">
+
+          &copy;
+          <span id="footer-year"></span>
+
+          <strong>
+            <span>
+              TRIO Corporation Pvt. Ltd.
+            </span>
+          </strong>
+
+          . All Rights Reserved.
+
+        </div>
+
+
+        <div class="credits">
+
+          Hospital Information Management System
+
+        </div>
+
+      </div>
+
+
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+        <a
+          href="https://twitter.com/CorporationTrio"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter">
+
+          <i class="fab fa-x-twitter"></i>
+
+        </a>
+
+
+        <a
+          href="https://www.facebook.com/trioindia"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook">
+
+          <i class="fab fa-facebook-f"></i>
+
+        </a>
+
+
+        <a
+          href="https://www.instagram.com/triocorporationitservices/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram">
+
+          <i class="fab fa-instagram"></i>
+
+        </a>
+
+
+        <a
+          href="https://www.linkedin.com/company/trio-corporation-pvt-ltd-/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn">
+
+          <i class="fab fa-linkedin-in"></i>
+
+        </a>
+
+
+        <a
+          href="https://www.youtube.com/@triocorporation2512"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube">
+
+          <i class="fab fa-youtube"></i>
+
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================
+       BACK TO TOP
+  ========================== -->
+
+  <a
+    href="#"
+    class="back-to-top d-flex align-items-center justify-content-center"
+    aria-label="Back to top">
+
+    <i class="bi bi-arrow-up-short"></i>
+
+  </a>
+
+
+  <!-- =========================
+       JAVASCRIPT LIBRARIES
+  ========================== -->
+
+  <!-- GLightbox -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js">
+  </script>
+
+
+  <!-- Swiper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
+  </script>
+
+
+  <!-- PureCounter -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js">
+  </script>
+
+
+  <!-- SweetAlert -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+  </script>
+
+
+  <!-- =========================
+       CLIENT LOGO SWIPER
+  ========================== -->
+
+  <script>
+
+    document.addEventListener(
+      'DOMContentLoaded',
+      function () {
+
+        if (
+          typeof Swiper !== 'undefined' &&
+          document.querySelector('.clients-slider')
+        ) {
+
+          new Swiper('.clients-slider', {
+
+            loop: true,
+
+            speed: 600,
+
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false
+            },
+
+            slidesPerView: 2,
+
+            spaceBetween: 30,
+
+            breakpoints: {
+
+              576: {
+                slidesPerView: 3
+              },
+
+              768: {
+                slidesPerView: 4
+              },
+
+              992: {
+                slidesPerView: 5
+              },
+
+              1200: {
+                slidesPerView: 6
+              }
+
+            }
+
+          });
+
+        }
+
+      }
+
+    );
+
+  </script>
+
+
+  <!-- =========================
+       MODULE ACCORDION HELPER
+  ========================== -->
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      var faqLinks = document.querySelectorAll('.faq-list a');
+
+      faqLinks.forEach(function (link) {
+
+        link.addEventListener('click', function () {
+
+          var li = link.closest('li');
+
+          if (li) {
+            li.classList.toggle('faq-open');
+          }
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+
+  <!-- =========================
+       FOOTER YEAR
+  ========================== -->
+
+  <script>
+
+    document.addEventListener(
+      'DOMContentLoaded',
+      function () {
+
+        const yearElement =
+          document.getElementById('footer-year');
+
+        if (yearElement) {
+
+          yearElement.textContent =
+            new Date().getFullYear();
+
+        }
+
+      }
+
+    );
+
+  </script>
+
+
+  <!-- =========================
+       MAIN JAVASCRIPT
+  ========================== -->
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
